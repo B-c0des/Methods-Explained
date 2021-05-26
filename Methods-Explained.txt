@@ -24,7 +24,7 @@ Includes() method returns a boolean if a string includes an item specified in th
 
 IndexOf() method returns a numerical value specifying the numerical index in an array of a specified item 
 
-Every()  oops.
+Every()  method checks every single element for a paramater, and if any of the elements return , then the entire method returns true.
 
 CharAt Method 
 
