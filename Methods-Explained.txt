@@ -1,4 +1,4 @@
-methods:
+Methods:
 
 Map() method iterates through each value in an array, does something to it and returns a new array with the new calculated values.
 
