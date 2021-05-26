@@ -1,71 +1,65 @@
 methods:
-map method iterates through each value in an array, does something to it and returns what was done to each value, and spits out a new array with the new calculated values
 
-reduce method iterates through each value in an array, does something to it, and compares it to something logically, and what is left of the array is a reduced array from comparisons from the logic that was applied to the array
+Map() method iterates through each value in an array, does something to it and returns a new array with the new calculated values.
 
+Reduce() method iterates through each value in an array, does something to it, and compares it to a value specified logically, and what is left of the array is a reduced array from comparison logic that was applied to the array.
 
-filter method iterates through each value in an array and does something to each value logically, and then what is left is the array that has been filtered through each value with some logic that was applied to the array
+Filter() method iterates through each value in an array,  does something to it, and compares it to a value specified logically, and then what is left is the array that has been filtered, returning each value that was applied to the array.
 
-forEach method iterates through an array and applies a function to each item in an array.
+ForEach() method iterates through an array and applies a function to each item in the array.
 
-sort method sorts an array based upon value, if a string, it sorts by A first, than B second. If a number it will sort by the first largest number so 2 will come first, and 12 will come second.
+Sort() method sorts an array based upon value, if a string, it sorts by A first, than B second. If a number it will sort by the first largest number so 2 will return first, and 12 will come second. Unless specified.
 
+Slice() method selects an element in an array by the position of the the first paramater starting with 0, and slices the array, ( takes out of the array the specified elements up to the second paramater value starting with 1). 
 
-slice method selects an element in an array by the position of the the first paramater starting with 0, and slices ( takes out of the array the specified elements up to the second paramater value starting with 1. 
+Pop() method removes the last element of an array.
 
-pop method removes the last element of an array.
+Shift() method removes the first item of the array.
 
-shift method removes the first item of the array.
+Push() method adds an item to the end of an array.
 
-push method adds an item to the end of an array.
+Unshift() method adds an item to the beginning of an array.
 
-unshift method adds an item to the beginning of an array.
+Includes() method returns a boolean if a string includes an item specified in the paramater of the method.
 
-includes method returns a boolean if a string includes an item specified in the paramater of the method.
+IndexOf() method returns a numerical value specifying the numerical index in an array of a specified item 
 
-indexOf method returns a numerical value specifying the numerical index in an array of a specified item 
-every
+Every()  oops.
 
-charAt Method 
+CharAt Method 
 
 Finds a string value at a specific index.
 let string = "Hello"
 string.charAt(0)
 would return "H"
 
-charCodeAt Method
-Returns a integer between 0 and 65535 repersenting a UTF-16 code for the index character indicated in the paramater.
+CharCodeAt() method returns a integer between 0 and 65535 repersenting a UTF-16 code for the index character indicated in the paramater.
 
-concat method concatinates ( links together ) multiple strings to create one string. 
+Concat() method concatinates ( links together ) multiple strings to create one string. 
 
-includes method searches an entire string to find if a string specified in the paramater, is included inside the string that is search. Returning a boolean value of true or false. 
+Includes() method searches an entire string to find if a string specified in the paramater, is included inside the string that is search. Returning a boolean value of true or false. 
 
+IndexOf() method searches a string, with a string in the paramater, and returns a integer value of where the paramater string is located in the searched string. 
 
-indexOf method searches a string, with a string in the paramater, and returns a integer value of where the paramater string is located in the searched string. 
+Match() method uses regular expressions to search through a string to find a match against the regular expression. It returns an array of the matches. 
 
+Repeat() method repeats a string a certain amout of times specified in the paramater. 
 
-match method uses regular expressions to search through a string to find a match against the regular expression. It returns an array of the matches. 
-
-repeat method repeats a string a certain amout of times specified in the paramater. 
-
-replace method, replaces a specified string in the first paramater, with another string specified in the second paramater. 
+Replace() method, replaces a specified string in the first paramater, with another string specified in the second paramater. 
  
-search method searches a string for a speicified paramater, and returns the index position of the match. 
+Search() method searches a string for a speicified paramater, and returns the index position of the match. 
 
-slice method selects an element in an array by the position of the the first paramater starting with 0, and slices ( takes out of the array the specified elements up to the second paramater value starting with 1. 
+Slice() method selects an element in an array by the position of the the first paramater starting with 0, and slices ( takes out of the array the specified elements up to the second paramater value starting with 1. 
 
-split method splits the string by a specified value in the paramter surrounded by quotes
+Split() method splits the string by a specified value in the paramter surrounded by quotes.
 
+Substr() method returns a string between the first paramater index value, and the second paramater index value.
 
-substr method returns a string between the first paramater index value, and the second paramater index value
+ToLowerCase() converts a string specified and replaces the entire string with all lower case letters.
 
-toLowerCase converts a string specified and replaces the entire string with all lower case letters
+ToUpperCase() converts a string specified and replaces the entire string with all UPPER case letters.
 
-
-toUpperCase converts a string specified and replaces the entire string with all UPPER case letters
-
-
-trim removes any empty spaces on both sides od a specified string.
+Trim() removes any empty spaces on both sides od a specified string.
 
 
 Give a short description of what the method does, how it works, it's time complexity (if appropriate), and give three examples of it in action!
